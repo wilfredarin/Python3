@@ -1,0 +1,14 @@
+Web scraping basically refers to fetching only some important piece of information from one or more websites. Every website has recognizable structure/pattern of HTML elements.
+
+Steps to perform webscraping :
+
+1. Send a link and get the response from the sent link
+2. Then convert response object to a byte string.
+3. Pass the byte string to ‘fromstring’ method in html class in lxml module.
+4. Get to a particular element by xpath.
+5. Use the content according to your need.
+
+
+pip install requests
+pip install lxml
+
